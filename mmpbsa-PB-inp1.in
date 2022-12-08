@@ -1,0 +1,15 @@
+&general
+sys_name="Prot-Lig-CHARMM",
+startframe=1,
+endframe=701,
+interval=20,
+temperature=300,
+PBRadii=7,
+/
+&pb
+istrng=0.15, fillratio=4.0, radiopt=0, inp=1,use_sav=0,
+/
+&decomp
+idecomp=2, dec_verbose=3,
+print_res="within 100"
+/
